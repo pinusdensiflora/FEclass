@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<a href = "/create"><button>회원가입</button></a>
+<br>
+<br>
+
+
+<!-- 받아온 members 덩어리를 하나씩 화면에 뿌려주는 부분. 타임리프 사용-->
+<!-- th 반복문으로 멤버테이블의 레코드 수만큼 반복해준다. -->
+
+<th:block th:each="member : ${members}">
+
+[[${member.id}]] / [[${member.pw}]] / [[${member.name}]]
+<br>
+
+</th:block>
+
+
+
+</body>
+</html>
+

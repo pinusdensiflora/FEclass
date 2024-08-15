@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<a href = "create" ><button>게시글작성</button></a>
+
+<br>
+<th:block th:each="notice : ${notices}">
+
+[[${notice.title}]] / [[${notice.content}]]
+<br>
+
+</th:block>
+
+
+
+</body>
+</html>
