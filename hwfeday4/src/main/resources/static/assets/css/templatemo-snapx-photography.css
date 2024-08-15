@@ -107,7 +107,7 @@ p {
 }
 
 img {
-  width: 100%;
+
   overflow: hidden;
 }
 
@@ -187,7 +187,7 @@ body {
 }
 
 section {
-  margin-top: 120px;
+  /*margin-top: 120px;*/
 }
 
 .section-heading {
@@ -225,7 +225,7 @@ section {
 
 /* 
 ---------------------------------------------
-Header Style 지금 다른 탬플릿이랑 헤더에서 충돌나서 다 지움
+Header Style
 --------------------------------------------- 
 */
 
@@ -671,10 +671,10 @@ Header Style 지금 다른 탬플릿이랑 헤더에서 충돌나서 다 지움
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
-}
+} */
 
 
-
+/*
 --------------------------------------------
 PopUp Style
 --------------------------------------------
@@ -706,7 +706,6 @@ section.popupBody {
 
 .btn {
   padding: 10px 20px;
-  background: #00bdfe;
   color: #fff;
   transition: all .3s;
 }
@@ -1110,7 +1109,7 @@ section.featured-items {
   font-size: 24px;
   display: inline-block;
   color: #fff;
-  background-color: #00bdfe;
+  background-color: gray;
   border-radius: 50%;
   opacity: 0.75;
   transition: all .3s;
