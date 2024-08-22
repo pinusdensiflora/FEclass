@@ -13,7 +13,6 @@ public class Quiz9 {
 		int answer = rand.nextInt(20);
 		
 		int count = 0;
-		boolean flag = false;
 		
 		for(;;) {
 			if(6-count == 0) {
@@ -30,16 +29,15 @@ public class Quiz9 {
 			}else if(answer < n) {
 				System.out.println("더 작은 숫자입니다.");
 			}else {
-				flag = true;
+			
+				System.out.println(count + "회 만에 맞추었습니다.");
+				
 				break;
 			}
 		
 		
 		}
 		
-		if(flag) {
-			System.out.println(count + "회 만에 맞추었습니다.");
-		}
 		
 		
 		
